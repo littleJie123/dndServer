@@ -1,0 +1,36 @@
+{
+  "name": "dndserver",
+  "version": "1.0.0",
+  "description": "dndServer",
+  "main": "dist/server/DndServer.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint --fix src --ext .ts",
+    "start": "tsc && node .",
+    "dev": "ts-node src/index.ts",
+    "product": "node dist/index.js",
+    "clean": "rm -rf \"./dist\" \"./coverage\"",
+    "test": "jest --silent"
+  },
+  "keywords": [
+    "dndServer"
+  ],
+  "author": "gmj",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "fastsaas": "https://github.com/littleJie123/fastsaas",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

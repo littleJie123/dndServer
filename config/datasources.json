@@ -1,0 +1,20 @@
+{
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "username": "newuser",
+        "password": "password",
+        "database": "dnd",
+        "connectionLimit": 10,
+        "charset": "utf8mb4"
+    },
+    "mysql1": {
+        "host": "47.76.211.12",
+        "port": 33060,
+        "username": "littlejie",
+        "password": "lj1122233",
+        "database": "supply",
+        "connectionLimit": 10,
+        "charset": "utf8mb4"
+    }
+}
